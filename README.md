@@ -1,2 +1,2 @@
-## Project-1: Using CRISP-DM Method for classification model to predict buyer rating from dataset of a marketplace
+## Project-1: Using CRISP-DM Method for Classification Model to Predict Buyer Rating from Dataset of a Marketplace
 A Final Project in Sharing Vision Data Science Bootcamp
