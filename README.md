@@ -17,5 +17,18 @@ Terbagi menjadi tiga yang mana telah ditentukan oleh instructor:
 ## Data Understanding
 ### Data Description
 Data yang digunakan:
-- 'model_development_set.csv't_set.csv', digunakan untuk pembuatan model.
+- 'model_development_set.csv', digunakan untuk pembuatan model
 - 'back_testing_set.csv', digunakan untuk menguji model yang dibuat dan memprediksi kolom 'label' (buyer rating) karena pada back_testing_set ini kolom 'label' disembunyikan oleh instruktor
+- Data 'model_development_set.csv' terdiri dari 13645 baris dan 40 kolom atau fitur dengan tipe data numerik, kategorik, dan datetime
+- Fitur Numerik
+gambar
+- Fitur Kategorik 
+gambar
+-Fitur Datetime
+gambar
+## Exploraatory Data Analysis (EDA)
+### Fitur Numerik
+#### Univariat Numerik
+#### Multivariat Numerik
+#### Numerik-Label
+### Fitur kategorik
