@@ -23,7 +23,7 @@ Data yang digunakan:
 - 'back_testing_set.csv', digunakan untuk menguji model yang dibuat dan memprediksi kolom 'label' (buyer rating) karena pada back_testing_set ini kolom 'label' disembunyikan oleh instruktor
 - Data 'model_development_set.csv' terdiri dari 13645 baris dan 40 kolom atau fitur dengan tipe data numerik, kategorik, dan datetime
 - Fitur Numerik
-gambar
+https://user-images.githubusercontent.com/113491625/195153492-871d6ef0-326c-4fcb-96f8-1cbcb74b550d.PNG
 - Fitur Kategorik 
 gambar
 -Fitur Datetime
