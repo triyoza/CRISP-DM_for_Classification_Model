@@ -9,7 +9,8 @@ CRISP DM (The CRoss Industry StandardProcess for Data Mining), terdiri dari bebe
 - Modeling
 - Evaluasi
 - Deployment (Pada project ini hanya sampai tahapn evaluasi)
-### Bussines Understanding
+### Bussiness Understanding
+- Terbagi menjadi tiga yang mana telah ditentukan oleh instructor sebgai berikut
 #### - Bussiness Objectives
 Suatu perusahaan marketplace ingin membuat guideline berisi tips untuk seller bagaimana agar mendapatkan rating 5 dari buyer
 #### - Model Objectives
