@@ -1,4 +1,12 @@
-## Using CRISP-DM Method for Classification Model to Predict Buyer Rating from Dataset of a Marketplace
-### A Final Project in Sharing Vision Data Science Bootcamp
-#### Instructions
-Use the CRISP DM methodology (Business understanding, Data understanding, Data preparation, Feature engineering, Modeling, Evaluation, Deployment) for classification problems predicting the 'label' column in the dataset
+## Menggunakan Metodologi CRISP-DM untuk Model Klasifikasi Memprediksi Buyer Rating di Suatu Marketplace
+### Sebuah Final Project di Sharing Vision Data Science Bootcamp
+#### Instruksi
+Gunakan metodologi CRISP DM: business understanding, data understanding, data preparation, feature engineering, modeling, evaluasi, deployment untuk masalah klasifikasi memprediksi kolom 'label' pada dataset
+### Pendahuluan
+CRISP DM (The CRoss Industry StandardProcess for Data Mining), terdiri dari beberapa tahapan:
+- BUSSINESS UNDERSTANDING
+- DATA UNDERSTANDING
+- DATA PREPARATION
+- FEATURE ENGINEERING
+- MODELING
+- EVALUASI
