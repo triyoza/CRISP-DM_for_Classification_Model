@@ -1,5 +1,7 @@
 ## Menggunakan Metodologi CRISP-DM untuk Model Klasifikasi Memprediksi Buyer Rating di Suatu Marketplace
 ## Sebuah Final Project di Sharing Vision Data Science Bootcamp
+- Ditulis oleh: Triyoza Aprianda
+- Untuk lebih lengkapnyya silahkan buka file ipynb dan pdf:)
 ## Pendahuluan
 CRISP DM (The CRoss Industry Standard Process for Data Mining):
 - Bussinees Understanding
@@ -8,7 +10,7 @@ CRISP DM (The CRoss Industry Standard Process for Data Mining):
 - Feature Engineering
 - Modeling
 - Evaluasi
-- Deployment (Pada project ini hanya sampai tahapn evaluasi)
+- Deployment (Pada project ini hanya sampai tahapan evaluasi)
 ## Bussiness Understanding
 Terbagi menjadi tiga yang mana telah ditentukan oleh instructor:
 - Bussiness Objectives: Suatu perusahaan marketplace ingin membuat guideline berisi tips untuk seller bagaimana agar mendapatkan rating 5 dari buyer
