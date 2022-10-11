@@ -1,4 +1,4 @@
-# Menggunakan Metodologi CRISP-DM untuk Model Klasifikasi Memprediksi Buyer Rating di Suatu Marketplace
+## Menggunakan Metodologi CRISP-DM untuk Model Klasifikasi Memprediksi Buyer Rating di Suatu Marketplace
 ## Sebuah Final Project di Sharing Vision Data Science Bootcamp
 ## Pendahuluan
 CRISP DM (The CRoss Industry Standard Process for Data Mining):
