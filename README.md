@@ -42,7 +42,7 @@ Salah satu regplot dengan korelasi tinggi
 
 #### Numerik-Label
 
-![boxplot pointplot](https://user-images.githubusercontent.com/113491625/195235519-42fe8207-0fa9-4900-aa0d-39c4b39acb04.PNG)
+![kkkk](https://user-images.githubusercontent.com/113491625/195237690-813f5d64-9ad9-494a-9c61-8d253bd01d35.PNG)
 
 - Dari plot yang dihasilkan, pada umumnya di setiap fitur numerik memiliki rata-rata nilai yang lebih tinggi pada label 0 (rating di bawah 5)
 - Namun untuk fitur 'price' dan 'description length' yang ditampilkan berlaku sebaliknya, memiliki rata-rata nilai yang lebihtinggi pada label 1 (buyer memberi rating 5)
@@ -60,7 +60,7 @@ Dari beberapa barplot dan stacked barplot yang ditampilkan dapat dilihat bahwa u
 ![jjjjj](https://user-images.githubusercontent.com/113491625/195236686-31d66369-658e-4885-b8ba-98d79fc7cef6.PNG)
 - Beberapa hasil plot berupa jointplot
 
-![kkkk](https://user-images.githubusercontent.com/113491625/195237262-5f01570d-398e-4d94-aa1e-b6a1bf9165de.PNG)
+![jointploat](https://user-images.githubusercontent.com/113491625/195235477-56bee122-c5c7-4fe0-b276-e2d935fa2244.PNG)
 
 - Titik-titk berwarna biru pada plot lebih banyak terdapat jauh dari sumbu 0 yang menandakan pemberian rating di bawah 5 (label 0). Hal ini menunjukkan semakin lama waktu yang dibutuhkan rating dominan yang diberikan oleh buyer dibawah 5.
 - Titik-titk berwarna orange pada plot lebih banyak terkumpul di dekat sumbu 0 yang menandakan pemberian rating di atas 5 (label 1). Menunjukkan bahwa semakin cepat waktu yang dibutuhka rating yang diberikan oleh buyer pada umumnya di bawah 5
