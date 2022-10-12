@@ -58,7 +58,8 @@ Dari beberapa barplot dan stacked barplot yang ditampilkan dapat dilihat bahwa u
 ### Fitur datetime
 Dari fitur datetime dapat diidentifikasi lama waktu pemrosesan pesanan dengan cara mengidentifikasi selisih antar fitur datetime, sehingga dapat dibuat kolom barupa lama waktu yang dibutuhkan, sebagai berikut:
 
-![jjjjj](https://user-images.githubusercontent.com/113491625/195236686-31d66369-658e-4885-b8ba-98d79fc7cef6.PNG)
+![dtmiee](https://user-images.githubusercontent.com/113491625/195238570-25838d02-5db7-4052-ba26-e6fee0be7659.PNG)
+
 - Beberapa hasil plot berupa jointplot
 
 ![jointploat](https://user-images.githubusercontent.com/113491625/195235477-56bee122-c5c7-4fe0-b276-e2d935fa2244.PNG)
@@ -79,6 +80,7 @@ Dari fitur datetime dapat diidentifikasi lama waktu pemrosesan pesanan dengan ca
 ![tts](https://user-images.githubusercontent.com/113491625/195228237-275526fa-4b0d-41d4-afda-7cb2700f8fdf.PNG)
 
 ### Missing Value Handling
+Persentase missing value tiap fitur
 
 ![mv](https://user-images.githubusercontent.com/113491625/195228246-6b00a3b1-cfc1-47cf-bdcc-ae95a04569f7.PNG)
 
