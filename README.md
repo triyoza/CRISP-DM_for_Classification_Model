@@ -28,7 +28,8 @@ Data yang digunakan:
 ![numerik](https://user-images.githubusercontent.com/113491625/195153492-871d6ef0-326c-4fcb-96f8-1cbcb74b550d.PNG)
 #### Fitur Kategorik
 
-![kategorik](https://user-images.githubusercontent.com/113491625/195223820-076f3174-cb15-431f-af49-d9548334d3ca.PNG)
+![newww](https://user-images.githubusercontent.com/113491625/195238075-a17ac0b1-5a93-45e0-ab81-f3824dc27b1b.PNG)
+
 #### Fitur Datetime
 
 ![dtime beru](https://user-images.githubusercontent.com/113491625/195235458-85223345-b70c-48e9-bb94-72f487c1d8db.PNG)
@@ -55,7 +56,7 @@ Countplot dan stacked barplot
 Dari beberapa barplot dan stacked barplot yang ditampilkan dapat dilihat bahwa untuk setiap fitur kategorik, label 1 atau pemberian rating 5 lebih unggul untuk masing-masing kategori yang ada dalam fitur
 
 ### Fitur datetime
--Dari fitur datetime dapat diidentifikasi lama waktu pemrosesan pesanan dengan cara mengidentifikasi selisih antar fitur datetime, sehingga dapat dibuat kolom barupa lama waktu yang dibutuhkan, sebagai berikut:
+Dari fitur datetime dapat diidentifikasi lama waktu pemrosesan pesanan dengan cara mengidentifikasi selisih antar fitur datetime, sehingga dapat dibuat kolom barupa lama waktu yang dibutuhkan, sebagai berikut:
 
 ![jjjjj](https://user-images.githubusercontent.com/113491625/195236686-31d66369-658e-4885-b8ba-98d79fc7cef6.PNG)
 - Beberapa hasil plot berupa jointplot
