@@ -38,11 +38,11 @@ Data yang digunakan:
 #### Multivariat Numerik
 Salah satu regplot dengan korelasi tinggi
 
-![numriknumerik](https://user-images.githubusercontent.com/113491625/195224394-ffb706e0-04c5-4b4a-b44f-ef7ee3e82c06.PNG)
+![regplot](https://user-images.githubusercontent.com/113491625/195235492-94246ed8-5985-4cc2-a4cd-446b645a7fb0.PNG)
 
 #### Numerik-Label
 
-![regplot](https://user-images.githubusercontent.com/113491625/195235492-94246ed8-5985-4cc2-a4cd-446b645a7fb0.PNG)
+![boxplot pointplot](https://user-images.githubusercontent.com/113491625/195235519-42fe8207-0fa9-4900-aa0d-39c4b39acb04.PNG)
 
 - Dari plot yang dihasilkan, pada umumnya di setiap fitur numerik memiliki rata-rata nilai yang lebih tinggi pada label 0 (rating di bawah 5)
 - Namun untuk fitur 'price' dan 'description length' yang ditampilkan berlaku sebaliknya, memiliki rata-rata nilai yang lebihtinggi pada label 1 (buyer memberi rating 5)
@@ -50,7 +50,7 @@ Salah satu regplot dengan korelasi tinggi
 ### Fitur kategorik
 Countplot dan stacked barplot 
 
-![kategorik labe](https://user-images.githubusercontent.com/113491625/195224533-c6820f80-3af2-4ad4-a2b6-9569a181b800.PNG)
+![count and stacked](https://user-images.githubusercontent.com/113491625/195235503-e58eb066-b03c-404f-b1be-24d8c72cbd4c.PNG)
 
 Dari beberapa barplot dan stacked barplot yang ditampilkan dapat dilihat bahwa untuk setiap fitur kategorik, label 1 atau pemberian rating 5 lebih unggul untuk masing-masing kategori yang ada dalam fitur
 
@@ -61,7 +61,7 @@ Dari beberapa barplot dan stacked barplot yang ditampilkan dapat dilihat bahwa u
 
 - Beberapa hasil plot berupa jointplot
 
-![datetimee](https://user-images.githubusercontent.com/113491625/195224767-88eaf7d7-9aeb-4dbb-896e-ad82256d909c.PNG)
+![jointploat](https://user-images.githubusercontent.com/113491625/195235477-56bee122-c5c7-4fe0-b276-e2d935fa2244.PNG)
 
 - Titik-titk berwarna biru pada plot lebih banyak terdapat jauh dari sumbu 0 yang menandakan pemberian rating di bawah 5 (label 0). Hal ini menunjukkan semakin lama waktu yang dibutuhkan rating dominan yang diberikan oleh buyer dibawah 5.
 - Titik-titk berwarna orange pada plot lebih banyak terkumpul di dekat sumbu 0 yang menandakan pemberian rating di atas 5 (label 1). Menunjukkan bahwa semakin cepat waktu yang dibutuhka rating yang diberikan oleh buyer pada umumnya di bawah 5
