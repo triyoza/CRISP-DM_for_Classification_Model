@@ -57,11 +57,10 @@ Dari beberapa barplot dan stacked barplot yang ditampilkan dapat dilihat bahwa u
 ### Fitur datetime
 -Dari fitur datetime dapat diidentifikasi lama waktu pemrosesan pesanan dengan cara mengidentifikasi selisih antar fitur datetime, sehingga dapat dibuat kolom barupa lama waktu yang dibutuhkan, sebagai berikut:
 
-![dt](https://user-images.githubusercontent.com/113491625/195225850-18bf900a-4c90-423f-afac-4baca328e559.PNG)
-
+![jjjjj](https://user-images.githubusercontent.com/113491625/195236686-31d66369-658e-4885-b8ba-98d79fc7cef6.PNG)
 - Beberapa hasil plot berupa jointplot
 
-![jointploat](https://user-images.githubusercontent.com/113491625/195235477-56bee122-c5c7-4fe0-b276-e2d935fa2244.PNG)
+![kkkk](https://user-images.githubusercontent.com/113491625/195237262-5f01570d-398e-4d94-aa1e-b6a1bf9165de.PNG)
 
 - Titik-titk berwarna biru pada plot lebih banyak terdapat jauh dari sumbu 0 yang menandakan pemberian rating di bawah 5 (label 0). Hal ini menunjukkan semakin lama waktu yang dibutuhkan rating dominan yang diberikan oleh buyer dibawah 5.
 - Titik-titk berwarna orange pada plot lebih banyak terkumpul di dekat sumbu 0 yang menandakan pemberian rating di atas 5 (label 1). Menunjukkan bahwa semakin cepat waktu yang dibutuhka rating yang diberikan oleh buyer pada umumnya di bawah 5
