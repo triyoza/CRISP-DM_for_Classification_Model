@@ -31,7 +31,7 @@ Data yang digunakan:
 ![kategorik](https://user-images.githubusercontent.com/113491625/195223820-076f3174-cb15-431f-af49-d9548334d3ca.PNG)
 #### Fitur Datetime
 
-![datetime](https://user-images.githubusercontent.com/113491625/195223888-0bcaf27b-868a-4840-ac05-a2fd01fc8367.PNG)
+![dtime beru](https://user-images.githubusercontent.com/113491625/195235458-85223345-b70c-48e9-bb94-72f487c1d8db.PNG)
 
 ## Exploratory Data Analysis (EDA)
 ### Fitur Numerik
@@ -41,7 +41,8 @@ Salah satu regplot dengan korelasi tinggi
 ![numriknumerik](https://user-images.githubusercontent.com/113491625/195224394-ffb706e0-04c5-4b4a-b44f-ef7ee3e82c06.PNG)
 
 #### Numerik-Label
-![numerik label](https://user-images.githubusercontent.com/113491625/195224483-19494df0-783f-444d-bd63-103faea26c24.PNG)
+
+![regplot](https://user-images.githubusercontent.com/113491625/195235492-94246ed8-5985-4cc2-a4cd-446b645a7fb0.PNG)
 
 - Dari plot yang dihasilkan, pada umumnya di setiap fitur numerik memiliki rata-rata nilai yang lebih tinggi pada label 0 (rating di bawah 5)
 - Namun untuk fitur 'price' dan 'description length' yang ditampilkan berlaku sebaliknya, memiliki rata-rata nilai yang lebihtinggi pada label 1 (buyer memberi rating 5)
