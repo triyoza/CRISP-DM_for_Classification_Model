@@ -44,7 +44,7 @@ Salah satu regplot dengan korelasi tinggi
 ![numerik label](https://user-images.githubusercontent.com/113491625/195224483-19494df0-783f-444d-bd63-103faea26c24.PNG)
 
 - Dari plot yang dihasilkan, pada umumnya di setiap fitur numerik memiliki rata-rata nilai yang lebih tinggi pada label 0 (rating di bawah 5)
-- Namun untuk fitur 'price' dan 'description length' yang ditampilkan berlaku sebaliknya,memiliki rata- rata nilai yang lebihtinggi pada label 1 (buyer memberi rating 5)
+- Namun untuk fitur 'price' dan 'description length' yang ditampilkan berlaku sebaliknya, memiliki rata-rata nilai yang lebihtinggi pada label 1 (buyer memberi rating 5)
 
 ### Fitur kategorik
 Countplot dan stacked barplot 
