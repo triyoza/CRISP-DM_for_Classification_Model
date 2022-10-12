@@ -55,7 +55,7 @@ Countplot dan stacked barplot
 
 Dari beberapa barplot dan stacked barplot yang ditampilkan dapat dilihat bahwa untuk setiap fitur kategorik, label 1 atau pemberian rating 5 lebih unggul untuk masing-masing kategori yang ada dalam fitur
 
-### Fitur datetime
+### Fitur Datetime
 Dari fitur datetime dapat diidentifikasi lama waktu pemrosesan pesanan dengan cara mengidentifikasi selisih antar fitur datetime, sehingga dapat dibuat kolom barupa lama waktu yang dibutuhkan, sebagai berikut:
 
 ![dtmiee](https://user-images.githubusercontent.com/113491625/195238570-25838d02-5db7-4052-ba26-e6fee0be7659.PNG)
@@ -67,7 +67,7 @@ Dari fitur datetime dapat diidentifikasi lama waktu pemrosesan pesanan dengan ca
 - Titik-titk berwarna biru pada plot lebih banyak terdapat jauh dari sumbu 0 yang menandakan pemberian rating di bawah 5 (label 0). Hal ini menunjukkan semakin lama waktu yang dibutuhkan rating dominan yang diberikan oleh buyer dibawah 5.
 - Titik-titk berwarna orange pada plot lebih banyak terkumpul di dekat sumbu 0 yang menandakan pemberian rating di atas 5 (label 1). Menunjukkan bahwa semakin cepat waktu yang dibutuhka rating yang diberikan oleh buyer pada umumnya di bawah 5
 
-#### Insight dari EDA
+### Insight dari EDA
 - Pada fitur numerik untuk 'price' dan 'description length' cukup unik karena rata-rata untuk nilai fitur tersebut lebih tinggi pada pemberian rating 5 daripada dibawah 5, berbeda dengan fitur numerik lain yang berlaku sebaliknya
 - Pada fitur kategorik, di setiap kategori dalam yang terdapat dalam fitur lebih banyak pemberian dengan rating 5 daripada di bawah 5, namun kurang dapat dijelaskan hubungannya
 - Dari ketiga tipe data, yang paling berpengaruh terhadap pemberian rating terdapat pada fitur datetime yaitu lama waktu yang dibutuhkan dalam proses pesanan. Dimana semakin lama waktu tahapan pemrosesan, maka rating yang diberikan oleh buyer lebih dominan di bawah 5
