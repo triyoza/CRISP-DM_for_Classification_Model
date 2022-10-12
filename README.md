@@ -1,7 +1,7 @@
 ## Menggunakan Metodologi CRISP-DM untuk Model Klasifikasi Memprediksi Buyer Rating di Suatu Marketplace
 - Sebuah Final Project di Sharing Vision Data Science Bootcamp
 - Ditulis oleh: Triyoza Aprianda
-- Lebih lengkap silahkan buka file ipynb dan pdf:)
+- Lebih lengkapnya silahkan membuka file ipynb yang dilamprikan:)
 ## Pendahuluan
 CRISP-DM (The CRoss Industry Standard Process for Data Mining):
 - Bussinees Understanding
@@ -16,6 +16,7 @@ Terbagi menjadi tiga yang telah ditentukan oleh instruktor:
 - Bussiness Objectives: Suatu perusahaan marketplace ingin membuat guideline berisi tips untuk seller bagaimana agar mendapatkan rating 5 dari buyer
 - Model Objectives: Membuat mesin klasifikasi untuk menentukan apakah buyer memberikan rating 5 terhadap barang yang dibeli (label 1) atau rating di bawah 5 (label 0)
 - Model Succes Kriteria  (Recall> 0.6; Precision > 0.6; FPR < 0.45), Model yang dibuat mencapai atau bahkan melebihi model success criteria. Apabila tidak berhasil, pilih model dengan performace terbaik
+
 ## Data Understanding
 ### Data Description
 Data yang digunakan:
@@ -28,25 +29,30 @@ Data yang digunakan:
 #### Fitur Kategorik
 
 ![kategorik](https://user-images.githubusercontent.com/113491625/195223820-076f3174-cb15-431f-af49-d9548334d3ca.PNG)
-### Fitur Datetime
+#### Fitur Datetime
 
 ![datetime](https://user-images.githubusercontent.com/113491625/195223888-0bcaf27b-868a-4840-ac05-a2fd01fc8367.PNG)
+
 ## Exploratory Data Analysis (EDA)
 ### Fitur Numerik
 #### Multivariat Numerik
-Salah satu hasil plot dengan korelasi tinggi
+Salah satu regplot dengan korelasi tinggi
 
 ![numriknumerik](https://user-images.githubusercontent.com/113491625/195224394-ffb706e0-04c5-4b4a-b44f-ef7ee3e82c06.PNG)
+
 #### Numerik-Label
 ![numerik label](https://user-images.githubusercontent.com/113491625/195224483-19494df0-783f-444d-bd63-103faea26c24.PNG)
-- Dari plot yang dihasilkan, pada umumnya di setiap fitur numerik memiliki rata- rata nilai yang lebih tinggi pada label 0 (rating di bawah 5)
-- Namun untuk fitur 'price' dan 'description length' yang ditampilkan berlaku sebaliknya,memiliki rata- rata nilai yang lebihtinggi pada label 1 (buyer memberirating 5)
+
+- Dari plot yang dihasilkan, pada umumnya di setiap fitur numerik memiliki rata-rata nilai yang lebih tinggi pada label 0 (rating di bawah 5)
+- Namun untuk fitur 'price' dan 'description length' yang ditampilkan berlaku sebaliknya,memiliki rata- rata nilai yang lebihtinggi pada label 1 (buyer memberi rating 5)
+
 ### Fitur kategorik
-Counplot dan bar plot 
+Countplot dan stacked barplot 
 
 ![kategorik labe](https://user-images.githubusercontent.com/113491625/195224533-c6820f80-3af2-4ad4-a2b6-9569a181b800.PNG)
 
-Dari beberapa barplot danstacked barplot yangditampilkan dapat dilihat bahwauntuk setiap fitur kategorik,label 1 atau pemberian rating 5lebih unggul untuk setiap  kategori yang ada dalam fitur
+Dari beberapa barplot dan stacked barplot yang ditampilkan dapat dilihat bahwa untuk setiap fitur kategorik, label 1 atau pemberian rating 5 lebih unggul untuk masing-masing kategori yang ada dalam fitur
+
 ### Fitur datetime
 -Dari fitur datetime dapat diidentifikasi lama waktu pemrosesan pesanan dengan cara mengidentifikasi selisih antar fitur datetime, sehingga dapat dibuat kolom barupa lama waktu yang dibutuhkan, sebagai berikut:
 
@@ -56,13 +62,74 @@ Dari beberapa barplot danstacked barplot yangditampilkan dapat dilihat bahwauntu
 
 ![datetimee](https://user-images.githubusercontent.com/113491625/195224767-88eaf7d7-9aeb-4dbb-896e-ad82256d909c.PNG)
 
-Titik berwarna biru lebih banyak terdapat jauh dari sumbu 0 yang menandakan pemeberian rating di bawah 5 (label 0) sebandung dengan lama waktu pemorsesan, semakin lama waktu yang dibutuhkan, rating dominan yang diberikan buyer adalh 0 dan sebaliknya untuk rating di ataas 5
+- Titik-titk berwarna biru pada plot lebih banyak terdapat jauh dari sumbu 0 yang menandakan pemberian rating di bawah 5 (label 0). Hal ini menunjukkan semakin lama waktu yang dibutuhkan rating dominan yang diberikan oleh buyer dibawah 5.
+- Titik-titk berwarna orange pada plot lebih banyak terkumpul di dekat sumbu 0 yang menandakan pemberian rating di atas 5 (label 1). Menunjukkan bahwa semakin cepat waktu yang dibutuhka rating yang diberikan oleh buyer pada umumnya di bawah 5
+
 #### Insight dari EDA
-- Pada fitur numerik untuk 'price' dan 'description length' cukup unik karena rata-rata untuk nilai fitur tersebut lebih tinggi padapemberian rating 5 daripada dibawah 5, berbeda dengan fitur numerik lain yang berlaku sebaliknya
-- Pada fitur kategorik, di setiap kategori dalam fitur lebih banyak pemberian degan rating 5 daripada di bawah 5, namun kurang dapat dijelaskan hubungannya
+- Pada fitur numerik untuk 'price' dan 'description length' cukup unik karena rata-rata untuk nilai fitur tersebut lebih tinggi pada pemberian rating 5 daripada dibawah 5, berbeda dengan fitur numerik lain yang berlaku sebaliknya
+- Pada fitur kategorik, di setiap kategori dalam yang terdapat dalam fitur lebih banyak pemberian dengan rating 5 daripada di bawah 5, namun kurang dapat dijelaskan hubungannya
 - Dari ketiga tipe data, yang paling berpengaruh terhadap pemberian rating terdapat pada fitur datetime yaitu lama waktu yang dibutuhkan dalam proses pesanan. Dimana semakin lama waktu tahapan pemrosesan, maka rating yang diberikan oleh buyer lebih dominan di bawah 5
 
+## Data Preparation dan fitur Engineering
+### Train Test Split
+- Drop fitur yang tidak diperlukan
+- Lakukakan train test split:
 
+![tts](https://user-images.githubusercontent.com/113491625/195228237-275526fa-4b0d-41d4-afda-7cb2700f8fdf.PNG)
 
+### Missing Value Handling
 
+![mv](https://user-images.githubusercontent.com/113491625/195228246-6b00a3b1-cfc1-47cf-bdcc-ae95a04569f7.PNG)
 
+Handling:
+- Simple imputer (strategy = median) untuk fitur numerik
+- Simple imputer (strategy = most_frequent ) untuk fitur kategorik
+
+### Transformasi
+- Scaling untuk fitur numerik
+- One hot encoder untuk fitur kategorik
+
+### Feature Selection
+- Multicolinearity Reduction
+- Mutual Information
+
+### Testing Set
+Melakukan semua tahapan: Missing value handling, transformasi, dan feature selection ke testing set seperti yang dilakuakan pada train set tanpa fit ulang
+
+## Modeling
+- Menentukan model
+- Tuning Hyperparameter menggunakan GridSearchCV
+- Mendapatkan parameter terbaik
+- Fitting ke training set
+- Periksa performanasi (train dan test)
+- Dilakukan hingga menemukan model yang sesuai kriteria atau performance terbaik
+
+### Model kalsifikasi final
+- Model klasifikasi yang dibuat yaitu: Logistic Regression, Decision Tree, Random Forest, Ada boost, dan XGBoost
+- Dipilih XGboost karena memiliki perfomansi yang terbaik
+- Hyperparameter
+
+![hyp](https://user-images.githubusercontent.com/113491625/195229327-a7bebee6-87d5-493c-916a-e345ee107c26.PNG)
+
+- Performannasi XGBoost final
+
+![perfromance](https://user-images.githubusercontent.com/113491625/195229397-73b55262-32ce-4b4e-988d-7ddb958ade80.PNG)
+
+Karena telah melebihi model succes criteria yang ditentukan di awal, maka model XGboost final digunakan untuk memprediksi kolom label pada 'backtesting_set'
+
+## Evaluasi
+- Menggunakan data'back_testing_set.csv yang sudah ditransformasi dan diseleksi mengikuti apa yang dilakukan kepada training set
+- Didapatkan kolom prediksi label yang berisi 0 dan 1 ( 0: buyer memberi rating di bawah 5, 1: buyer memberi rating 5), kemudian dijadikan kolom sendiri dan diextract ke file csv
+
+![eval](https://user-images.githubusercontent.com/113491625/195231539-c4a1a7ad-c223-441d-97e4-8daeb584f2cf.PNG)
+
+### Penutup
+- Setelah disubmit, instruktor membandingkan kolom label yang diperoleh dengan kolom label asli yang disembunyikan,
+- Didapatkan performnance dari model yang saya buat yaitu: 
+Recall 0.68
+Precision 0.68
+FPR 0.45
+
+![WhatsApp Image 2022-10-12 at 08 56 53](https://user-images.githubusercontent.com/113491625/195231126-4d58b3a0-c050-4bf4-bbd2-bb0620962ad9.jpeg)
+
+Terima kasih
