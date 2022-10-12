@@ -127,8 +127,8 @@ Karena telah melebihi model succes criteria yang ditentukan di awal, maka model 
 ![eval](https://user-images.githubusercontent.com/113491625/195231539-c4a1a7ad-c223-441d-97e4-8daeb584f2cf.PNG)
 
 ### Penutup
-- Setelah disubmit, instruktor membandingkan kolom label yang diperoleh dengan kolom label asli yang disembunyikan,
-- Didapatkan performnance dari model yang saya buat yaitu: 
+- Setelah disubmit, instruktor membandingkan kolom label yang diperoleh dengan kolom label asli yang disembunyikan
+- Didapatkan perforamnnsi  untuk back testing set dari model yang saya buat yaitu: 
 Recall 0.68
 Precision 0.68
 FPR 0.45
