@@ -128,11 +128,11 @@ Karena telah melebihi model succes criteria yang ditentukan di awal, maka model 
 
 ### Penutup
 - Setelah disubmit, instruktor membandingkan kolom label yang diperoleh dengan kolom label asli yang disembunyikan
-- Didapatkan perforamnansi untuk back testing set dari model yang saya buat yaitu: 
+- Didapatkan performansi untuk back testing set dari model yang saya buat yaitu: 
 Recall 0.68,
 Precision 0.68,
 FPR 0.45
 
-![WhatsApp Image 2022-10-12 at 08 56 53](https://user-images.githubusercontent.com/113491625/195231126-4d58b3a0-c050-4bf4-bbd2-bb0620962ad9.jpeg)
+# ![WhatsApp Image 2022-10-12 at 08 56 53](https://user-images.githubusercontent.com/113491625/195231126-4d58b3a0-c050-4bf4-bbd2-bb0620962ad9.jpeg)
 
 Terima kasih
