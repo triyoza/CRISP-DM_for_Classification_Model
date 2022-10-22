@@ -107,14 +107,14 @@ Melakukan semua tahapan: Missing value handling, transformasi, dan feature selec
 - Periksa performanasi (train dan test)
 - Dilakukan hingga menemukan model yang sesuai kriteria atau performance terbaik
 
-### Model kalsifikasi final
+### Model klasifikasi final
 - Model klasifikasi yang dibuat yaitu: Logistic Regression, Decision Tree, Random Forest, Ada boost, dan XGBoost
-- Dipilih XGboost karena memiliki perfomansi yang terbaik
+- Dipilih XGboost karena memiliki performance yang terbaik
 - Hyperparameter
 
 ![hyp](https://user-images.githubusercontent.com/113491625/195229327-a7bebee6-87d5-493c-916a-e345ee107c26.PNG)
 
-- Performannasi XGBoost final
+- Perfoemance XGBoost final
 
 ![perfromance](https://user-images.githubusercontent.com/113491625/195229397-73b55262-32ce-4b4e-988d-7ddb958ade80.PNG)
 
