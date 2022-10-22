@@ -4,14 +4,14 @@
 - Lebih lengkap silahkan membuka file ipynb yang dilampirkan:)
 ## Pendahuluan
 CRISP-DM (The CRoss Industry Standard Process for Data Mining):
-- Bussinees Understanding
+- Business Understanding
 - Data Understanding
 - Data Preparation
 - Feature Engineering
 - Modeling
 - Evaluasi
 - Deployment (Pada project ini hanya sampai tahapan evaluasi)
-## Bussiness Understanding
+## Business Understanding
 Terbagi menjadi tiga yang telah ditentukan oleh instruktor:
 - Bussiness Objectives: Suatu perusahaan marketplace ingin membuat guideline berisi tips untuk seller bagaimana agar mendapatkan rating 5 dari buyer
 - Model Objectives: Membuat mesin klasifikasi untuk menentukan apakah buyer memberikan rating 5 terhadap barang yang dibeli (label 1) atau rating di bawah 5 (label 0)
